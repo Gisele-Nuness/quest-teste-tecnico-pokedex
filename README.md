@@ -1,4 +1,8 @@
+<div align="center">
+
 # Pokédex
+
+</div>
 
 ## Descrição 📝
 Esta aplicação é uma Pokédex interativa, criada como parte de uma quest do módulo de React avançado no curso Devquest. Ela permite aos usuários explorar detalhes de Pokémon, como tipos, habilidades e movimentos, com funcionalidades adicionais para filtragem e carregamento dinâmico.
