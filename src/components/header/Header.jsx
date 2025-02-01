@@ -6,7 +6,7 @@ const Header = ({ onFilter }) => {
   return (
     <Container>
       <Filter onFilter={onFilter} />
-      <ImgLogo src="../src/assets/pokedex-logo.png" alt="Pokedex Logo" />
+      <ImgLogo src="/src/assets/pokedex-logo.png" alt="Pokedex Logo" />
       <ThemeTogglerButton />
     </Container>
   );
