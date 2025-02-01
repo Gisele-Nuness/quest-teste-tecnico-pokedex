@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import { ThemeTogglerButton } from "../botoes/theme-toggler-button";
 import { Filter } from "./Filter";
+import IconHeader from "../../assets/pokedex-logo.png";
 
 const Header = ({ onFilter }) => {
   return (
     <Container>
       <Filter onFilter={onFilter} />
-      <ImgLogo src="/src/assets/pokedex-logo.png" alt="Pokedex Logo" />
+      <ImgLogo src={IconHeader} alt="Pokedex Logo" />
       <ThemeTogglerButton />
     </Container>
   );
